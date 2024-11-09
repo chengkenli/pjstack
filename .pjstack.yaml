@@ -1,0 +1,28 @@
+
+configdb:
+  Host: 127.0.0.1
+  Port: 3306
+  User: root
+  Pass: xxxxxxxxxxxx
+  Schema:
+    Connect: chengken.sr_slow_query_manager
+
+common:
+# pstack命令所在位置
+  Pstack: xxxxxx
+# jstack命令所在位置
+  Jstack: xxxxx
+# SSH账号
+  User: starrocks
+# SSH端口
+  Port: 22
+# 账号私钥
+  Private: xxxxxx
+# 打包回传日志，放在这
+  LogPath: /xxxxxx
+
+
+logger:
+  LogPath: /xxxx
+
+
